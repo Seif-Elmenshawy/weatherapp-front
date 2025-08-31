@@ -1,0 +1,91 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 70%;
+    height: 100vh;
+    flex-direction: column;
+    
+    border-radius: 10px;
+    
+}
+.hero {
+  background: rgba(255, 255, 255, 0.8); /* Slightly transparent white */
+  padding: 2rem;
+  max-width: 500px;
+  width: 90%; /* responsive */
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.form input{
+    width: 70%;
+    border: 0;
+    background-color: #e6f0ff;
+    border: 1px solid #93c5fd;
+    color: #1e3a8a;
+    border-radius: 4px;
+    outline:0;
+    font-family: 'poppins';
+    font-size: 16px;
+}
+.form button{
+    background-color: #e6f0ff;
+    border: 1px solid #93c5fd;
+    color: #1e3a8a;
+    border-radius: 4px;
+}
+.today-weather{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    background: rgba(255, 255, 255, 0.8); /* Slightly transparent white */
+    max-width: 500px;
+    width: 90%; /* responsive */
+    border-radius: 20px;
+    margin: 20px auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.forecast{
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding: 2rem;
+    width: 90%;
+}
+.forecast-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.day{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    height: 200px;
+    background: rgba(255, 255, 255, 0.8); /* Slightly transparent white */
+    max-width: 500px;
+    width: 30%; /* responsive */
+    border-radius: 20px;
+    padding: 2rem;
+    margin: 20px auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}

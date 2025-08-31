@@ -1,0 +1,11 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'poppins';
+    background-image: linear-gradient(to left top, #ffffff, #f5f6fc, #eaedf9, #dce5f6, #ccddf3, #bad4f3, #a6ccf2, #90c4f1, #75b8f4, #59abf8, #3a9efa, #0390fc);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-attachment: fixed;
+}
